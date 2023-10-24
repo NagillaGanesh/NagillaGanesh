@@ -556,6 +556,9 @@ span{
     .contact .contact-content .left {
         font-size: 13px;
     }
+    .contact .contact-content .left text {
+        font-size: 10px;
+    }
     .contact .contact-content .icons {
         padding-top: 13px;
     }
