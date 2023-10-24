@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
@@ -115,7 +116,7 @@
                     <p>
                         I am aiming at becoming a software developer, with a decent knowledge of DS ALGO. Further, I have been designing frontend UX/UI using HTML, CSS , JavaScript. I am also familiar MySql, Moreover, I am learning Data Science and Machine Learning lately.
                     </p>
-                    <a href="cv.pdf">Read More</a>
+                    <a href="https://drive.google.com/file/d/1rhxmdEG0fPgpc3q3lq_X9VlRR44w-TK7/view?usp=drive_link">Read More</a>
                     </div>
                 <div class="column right">
                     <div class="bars">
@@ -292,7 +293,7 @@
         </div>
         <div class="column right">
             <div class="text">Message me</div>
-            <form data-email="nagillaganesh45@gmail.com" action="https://script.google.com/macros/s/AKfycbxki-V0n7QsQEB07I9WzId0JLIOlL9LuFDVFXuA4SPnwtXp_GSPfTprodd7e9Th1XVePw/exec" method="POST">
+            <form name='submit-to-google-sheet' data-email="nagillaganesh45@gmail.com" action="https://script.google.com/macros/s/AKfycbxki-V0n7QsQEB07I9WzId0JLIOlL9LuFDVFXuA4SPnwtXp_GSPfTprodd7e9Th1XVePw/exec" method="POST">
                 <div class="fields">
                     <div class="field name">
                         <input type="text" placeholder="Name" name="name" required>
@@ -302,7 +303,7 @@
                     </div>
                 </div>
                 <div class="field">
-                    <input type="text" placeholder="Subject" name="color" required>
+                    <input type="text" placeholder="Subject" name="subject" required>
                 </div>
                 <div class="field textarea">
                     <textarea cols="30" rows="10" placeholder="Message.." name="message" required></textarea>
@@ -310,6 +311,7 @@
                 <div class="button">
                     <button type="submit">Send Message</button>
                 </div>
+                <span id="msg"></span>
             </form>
         </div>
     </div>
