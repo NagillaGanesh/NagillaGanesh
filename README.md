@@ -19,8 +19,8 @@ This is my personal portfolio website, showcasing my skills, education, projects
 
 ## Contact
 
-- Your Name: Nagilla Ganesh
-- Your Email: nagillaganesh45@gmail.com.com
+- Name: Nagilla Ganesh
+- Email: nagillaganesh45@gmail.com.com
 - GitHub: [github.com/NagillaGanesh](https://github.com/NagillaGanesh)
 - LinkedIn: [linkedin.com/in/NagillaGanesh](https://www.linkedin.com/in/ganesh-nagilla-b1b04821b/)
 
