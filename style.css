@@ -453,6 +453,9 @@ span{
     text-align: center;
 }
 @media (max-width: 768px) {
+    .max-width{
+        padding: 0 23px;
+    }
     section .title {
         font-size: 28px;
         margin-bottom: 40px;
@@ -488,18 +491,22 @@ span{
     }
 
     .home .home-content .text-1 {
-        font-size: 18px;
+        font-size: 25px;
     }
     .home .home-content .text-2 {
-        font-size: 40px;
+        font-size: 45px;
     }
-    .home .home-content .text-3 {
-        font-size: 22px;
+    .home .home-content .text-3{
+        font-size: 27px;
+    }
+    .home .home-content .text-3 span{
+        color: #006400;
+        font-weight: 500;
     }
     .home .home-content a {
-        padding: 12px 25px;
+        padding: 8px 25px;
         margin-top: 15px;
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .about .about-content .right img {
@@ -512,11 +519,14 @@ span{
         margin-left: 10%;
         margin-right: 10%;
     }
+    .skills .skills-content .left p {
+        font-size: 15px;
+    }
     .about .about-content .left .text {
-        font-size: 20px;
+        font-size: 18px;
     }
     .about .about-content .left a {
-        padding: 12px 25px;
+        padding: 8px 22px;
         margin-top: 15px;
         font-size: 18px;
     }
@@ -525,6 +535,24 @@ span{
     .projects .project-content .card {
         width: calc(100% - 20px);
         margin-bottom: 10%;
+        margin-left: 10px;
+    }
+
+    .education .edu-content .card .text{
+        font-size: 20px;
+        font-weight: 500;
+        margin: 10px 0 7px 0;
+    }
+    .projects .project-content .card .text{
+        font-size: 22px;
+        font-weight: 500;
+        margin: 10px 0 7px 0;
+    }
+    .education .edu-content .card p,
+    .projects .project-content .card p{
+        font-size: 15px;
+        font-weight: 500;
+        margin: 10px 0 7px 0;
     }
 
     .skills .skills-content .column {
@@ -534,13 +562,13 @@ span{
         font-size: 18px;
     }
     .skills .skills-content .left p {
-        font-size: 16px;
+        font-size: 15px;
     }
     .skills .skills-content .left a {
-        padding: 8px 25px;
+        padding: 8px 18px;
         margin-top: 15px;
         margin-bottom: 15px;
-        font-size: 18px;
+        font-size: 16px;
     }
     .skills .skills-content .right span {
         font-size: 15px;
@@ -552,12 +580,13 @@ span{
     .contact .contact-content .column {
         width: 100%;
         font-size: 13px;
+        margin-bottom: 35px;
     }
-    .contact .contact-content .left {
-        font-size: 13px;
+    .contact .contact-content .left p {
+        font-size: 15px;
     }
     .contact .contact-content .left text {
-        font-size: 10px;
+        font-size: 15px;
     }
     .contact .contact-content .icons {
         padding-top: 13px;
@@ -568,7 +597,7 @@ span{
     }
     .contact .contact-content .info .sub-title{
         color: #333;
-        font-size: 12px;
+        font-size: 14px;
     }
     .contact .contact-content .info .sub-title{
         color: #333;
@@ -586,17 +615,19 @@ span{
         height: 40px;
         font-size: 16px;
     }
-    .contact .right form .button button {
-        padding: 12px 25px;
-        margin-top: 15px;
-        font-size: 18px;
+    .contact .right form .fields{
+        flex-direction: column;
     }
-}
-
-footer span a {
-    color: #006400;
-    text-decoration: none;
-}
-footer span a:hover {
-    text-decoration: underline;
+    .contact .right form .name,
+    .contact .right form .email{
+        margin: 0;
+    }
+    .contact .right form .button button {
+        padding: 8px 25px;
+        margin-top: 15px;
+        font-size: 16px;
+    }
+    footer span{
+        font-size:14px;
+    }
 }

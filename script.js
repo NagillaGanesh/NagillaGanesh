@@ -8,7 +8,7 @@ $(document).ready(function(){
 
     });
 var typed = new Typed(".typing", {
-    strings: ["Developer"," Web Designer", "Freelance Photographer"],
+    strings: ["<br>Developer","<br>Web Designer", "<br>Freelance<br>Photographer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
