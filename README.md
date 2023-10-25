@@ -47,16 +47,11 @@ I showcase some of the projects I have worked on, including a C++ course project
 ## Contact
 In this section, I provide my contact information, including my name, address, email address, LinkedIn profile, and Instagram page. It also includes a form for visitors to send me a message.
 
-## Usage
-- Customize the content in the HTML and CSS files to match your personal details and skills.
-- Update the project images and descriptions in the "Projects" section.
-- Test the website locally by opening the `index.html` file in a web browser.
-
 ## Acknowledgements
 - Special thanks to [GitHub Pages](https://pages.github.com/) for hosting this website.
 - Thanks to [Google Apps Script](https://developers.google.com/apps-script) for the contact form functionality.
 
 ## Author
-- [Your Name](https://github.com/NagillaGanesh)
+- [Nagilla Ganesh](https://github.com/NagillaGanesh)
 
 
