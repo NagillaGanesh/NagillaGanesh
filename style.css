@@ -289,7 +289,7 @@ section .title::after{
     background: #006400;
 }
 .skills-content .right .algo::before{
-    width: 10%;
+    width: 60%;
 }
 .skills-content .right .html::before{
     width:90%;
@@ -298,13 +298,13 @@ section .title::after{
     width: 60%;
 }
 .skills-content .right .js::before{
-    width: 70%;
-}
-.skills-content .right .python::before{
     width: 50%;
 }
+.skills-content .right .python::before{
+    width: 80%;
+}
 .skills-content .right .mysql::before{
-    width:70%;
+    width:80%;
 }
 
 
