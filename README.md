@@ -1,4 +1,4 @@
-# NagillaGanesh.github.io
+# NagillaGanesh
 My Portfolio
 # My Portfolio Website
 
